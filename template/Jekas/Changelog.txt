@@ -1,0 +1,30 @@
+V1.3
+
+Hello, we have made some improvements to our subject:
+
+Improvements:
+
+- add 5 new pages ( 404, left sidebar, right sidebar, full with, faq)
+- Add Mailchip api ( newsletter)
+- Add function interface  ( js/theme options/theme-option.js)
+
+V1.2
+
+Hello, we have made some improvements to our subject:
+
+Improvements:
+
+- Fixed problem in ipad
+- Fixed problem in Camera slide
+- Add Twitter Feed.
+
+V1.1
+
+Hello, we have made some improvements to our subject:
+
+Improvements:
+
+- add 6 skins more (cocoa,green,orange,pink,purple,suelte)
+- add textures, version boxed
+- add opage version
+- Fixed problem in ipad
