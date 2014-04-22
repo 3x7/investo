@@ -77,13 +77,13 @@ function twentyfourteen_post_nav() {
 
 	?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'twentyfourteen' ); ?></h1>
+		<h1 class="screen-reader-text"><?php _e( '', 'twentyfourteen' ); ?></h1>
 		<div class="nav-links">
 			<?php
 			if ( is_attachment() ) :
-				previous_post_link( '%link', __( '<span class="meta-nav">Published In</span>%title', 'twentyfourteen' ) );
+				previous_post_link( '%link', __( '<span class="meta-nav">Published In</span> %title', 'twentyfourteen' ) );
 			else :
-				previous_post_link( '%link', __( '<span class="meta-nav">Previous Post</span>%title', 'twentyfourteen' ) );
+				previous_post_link( '%link', __( '<span class="meta-nav">Previous Post</span> > %title', 'twentyfourteen' ) );
 				next_post_link( '%link', __( '<span class="meta-nav">Next Post</span>%title', 'twentyfourteen' ) );
 			endif;
 			?>
@@ -105,7 +105,7 @@ function twentyfourteen_posted_on() {
 	}
 
 	// Set up and print post meta information.
-	printf( '<span class="entry-date"><a href="%1$s" rel="bookmark"><time class="entry-date" datetime="%2$s">%3$s</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="%4$s" rel="author">%5$s</a></span></span>',
+	printf( '<span class="entry-date"><a href="%1$s" rel="bookmark"><time class="entry-date" datetime="%2$s">%3$s</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="%4$s" rel="author">by %5$s</a></span></span>',
 		esc_url( get_permalink() ),
 		esc_attr( get_the_date( 'c' ) ),
 		esc_html( get_the_date() ),

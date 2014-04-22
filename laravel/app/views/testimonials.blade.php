@@ -68,61 +68,6 @@
 </div>
 <!-- End Info title-->
 
-
-<!-- testimonials-->
-<section class="info_resalt border_top">
-    <div class="comments_carousel" id="comments_carousel">
-        <ul class="slides">
-            <li>
-                <div class="image">
-                    <img src="img/commnets/1.jpg" alt="Image">
-                </div>
-                <div class="arrow_coment"></div>
-                <div class="name">
-                    <h3>Jeny Martinez</h3>
-                </div>
-                <div class="job">
-                    <h3>Social Media</h3>
-                </div>
-                <p>Pellentesque habitant morbi tristique senectus et netus et
-                    malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                    feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-            </li>
-            <li>
-                <div class="image">
-                    <img src="img/commnets/2.jpg" alt="Image">
-                </div>
-                <div class="arrow_coment"></div>
-                <div class="name">
-                    <h3>Mager retry</h3>
-                </div>
-                <div class="job">
-                    <h3>Development</h3>
-                </div>
-                <p>Pellentesque habitant morbi tristique senectus et netus et
-                    malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                    feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-            </li>
-            <li>
-                <div class="image">
-                    <img src="img/commnets/3.jpg" alt="Image">
-                </div>
-                <div class="arrow_coment"></div>
-                <div class="name">
-                    <h3>Jertye Falcao</h3>
-                </div>
-                <div class="job">
-                    <h3>Web designer</h3>
-                </div>
-                <p>Pellentesque habitant morbi tristique senectus et netus et
-                    malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                    feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-            </li>
-        </ul>
-    </div>
-</section>
-<!-- End testimonials-->
-
 </section>
 <!-- End content info-->
 

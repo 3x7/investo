@@ -82,24 +82,24 @@
 /* ---------------------------------------------------------------------- */
 
 /* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
-@import url("bootstrap/bootstrap.css");
-@import url("bootstrap/bootstrap-responsive.css");
+@import url("/css/bootstrap/bootstrap.css");
+@import url("/css/bootstrap/bootstrap-responsive.css");
 /*Style Switcher - Theme Options */
-@import url("skins/theme-options.css");
+@import url("/css/skins/theme-options.css");
 /*jquery.fancybox-1.3.1.css  - Lightbox*/
-@import url("../js/fancybox/jquery.fancybox-1.3.1.css");
+@import url("/js/fancybox/jquery.fancybox-1.3.1.css");
 /*carousel.css*/
-@import url("carousel/flexslider.css");
+@import url("/css/carousel/flexslider.css");
 /*Animations*/
-@import url("animations/animate.css");
+@import url("/css/animations/animate.css");
 /*slide.css*/
-@import url("slide/camera.css");
+@import url("/css/slide/camera.css");
 /*Icons Font-Awesome*/
-@import url("icons/font-awesome.min.css");
+@import url("/css/icons/font-awesome.min.css");
 /*Grid Gallery*/
-@import url("grid/grid.css");
+@import url("/css/grid/grid.css");
 /*team*/
-@import url("team/minislider.css");
+@import url("/css/team/minislider.css");
 /*Google Fonts*/
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800");
 

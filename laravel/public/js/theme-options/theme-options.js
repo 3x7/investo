@@ -28,8 +28,8 @@
     var bg = "none";  // none (default), bg1, bg2, bg3, bg4, bg5, bg6, bg7, bg8, bg9, bg10, bg11 
 
 
-    $(".skin").attr("href", "css/skins/"+ skin + "/" + skin + ".css");
-    $(".logo_img").attr("src", "css/skins/" + "/" + skin + "/" + "logo.png");
+    $(".skin").attr("href", "/css/skins/"+ skin + "/" + skin + ".css");
+//    $(".logo_img").attr("src", "/css/skins/" + "/" + skin + "/" + "logo.png");
     $("#layout").addClass(layout);	
     $("body").addClass(bg);   
     return false;

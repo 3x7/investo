@@ -10,65 +10,138 @@
  * already has tag.php for Tag archives, category.php for Category archives,
  * and author.php for Author archives.
  *
- * @link http://codex.wordpress.org/Template_Hierarchy
+ * @link       http://codex.wordpress.org/Template_Hierarchy
  *
- * @package WordPress
+ * @package    WordPress
  * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * @since      Twenty Fourteen 1.0
  */
 
 get_header(); ?>
+    <!-- crumbs-->
+    <div class="crumbs border_bottom">
+        <div class="container">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li>/</li>
+                <li>News</li>
+                <li>/</li>
+                <li>
+                    <?php
+                    if (is_day()) :
+                        printf(
+                            __('Daily Archives: %s', 'twentyfourteen'),
+                            get_the_date()
+                        );
 
-	<section id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+                    elseif (is_month()) :
+                        printf(
+                            __('Monthly Archives: %s', 'twentyfourteen'),
+                            get_the_date(
+                                _x(
+                                    'F Y', 'monthly archives date format',
+                                    'twentyfourteen'
+                                )
+                            )
+                        );
 
-			<?php if ( have_posts() ) : ?>
+                    elseif (is_year()) :
+                        printf(
+                            __('Yearly Archives: %s', 'twentyfourteen'),
+                            get_the_date(
+                                _x(
+                                    'Y', 'yearly archives date format',
+                                    'twentyfourteen'
+                                )
+                            )
+                        );
 
-			<header class="page-header">
-				<h1 class="page-title">
-					<?php
-						if ( is_day() ) :
-							printf( __( 'Daily Archives: %s', 'twentyfourteen' ), get_the_date() );
+                    else :
+                        _e('Archives', 'twentyfourteen');
 
-						elseif ( is_month() ) :
-							printf( __( 'Monthly Archives: %s', 'twentyfourteen' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'twentyfourteen' ) ) );
+                    endif;
+                    ?>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End crumbs-->
+    <!-- Info -->
+    <section class="padding">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span8">
+                    <h2><?php
+                        if (is_day()) :
+                            printf(
+                                __('Daily Archives: %s', 'twentyfourteen'),
+                                get_the_date()
+                            );
 
-						elseif ( is_year() ) :
-							printf( __( 'Yearly Archives: %s', 'twentyfourteen' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentyfourteen' ) ) );
+                        elseif (is_month()) :
+                            printf(
+                                __('Monthly Archives: %s', 'twentyfourteen'),
+                                get_the_date(
+                                    _x(
+                                        'F Y', 'monthly archives date format',
+                                        'twentyfourteen'
+                                    )
+                                )
+                            );
 
-						else :
-							_e( 'Archives', 'twentyfourteen' );
+                        elseif (is_year()) :
+                            printf(
+                                __('Yearly Archives: %s', 'twentyfourteen'),
+                                get_the_date(
+                                    _x(
+                                        'Y', 'yearly archives date format',
+                                        'twentyfourteen'
+                                    )
+                                )
+                            );
 
-						endif;
-					?>
-				</h1>
-			</header><!-- .page-header -->
+                        else :
+                            _e('Archives', 'twentyfourteen');
 
-			<?php
-					// Start the Loop.
-					while ( have_posts() ) : the_post();
+                        endif;
+                        ?>
+                    </h2>
+                    <?php if (have_posts()) : ?>
 
-						/*
-						 * Include the post format-specific template for the content. If you want to
-						 * use this in a child theme, then include a file called called content-___.php
-						 * (where ___ is the post format) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
+                        <?php
+                        // Start the Loop.
+                        while (have_posts()) : the_post();
 
-					endwhile;
-					// Previous/next page navigation.
-					twentyfourteen_paging_nav();
+                            /*
+                             * Include the post format-specific template for the content. If you want to
+                             * use this in a child theme, then include a file called called content-___.php
+                             * (where ___ is the post format) and that will be used instead.
+                             */
+                            get_template_part('content', get_post_format());
 
-				else :
-					// If no content, include the "No posts found" template.
-					get_template_part( 'content', 'none' );
+                        endwhile;
+                        // Previous/next page navigation.
+                        twentyfourteen_paging_nav();
 
-				endif;
-			?>
-		</div><!-- #content -->
-	</section><!-- #primary -->
+                    else :
+                        // If no content, include the "No posts found" template.
+                        get_template_part('content', 'none');
 
+                    endif;
+                    ?>
+
+                </div>
+                <!-- Sidebars -->
+                <div class="span4 sidebars">
+                    <?php get_sidebar('content'); ?>
+                    <?php get_sidebar(); ?>
+                </div>
+            <!-- End Sidebars -->
+            </div>
+        </div>
+    <!-- End Container-->
+    </section>
+    <!-- End Info-->
 <?php
-get_sidebar( 'content' );
-get_sidebar();
 get_footer();
+?>

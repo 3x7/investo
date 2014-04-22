@@ -2,48 +2,75 @@
 /**
  * The template for displaying Search Results pages
  *
- * @package WordPress
+ * @package    WordPress
  * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * @since      Twenty Fourteen 1.0
  */
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+    <!-- crumbs-->
+    <div class="crumbs border_bottom">
+        <div class="container">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li>/</li>
+                <li><a href="/cms/">News</a></li>
+                <li>/</li>
+                <li>Search Results</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End crumbs-->
 
-			<?php if ( have_posts() ) : ?>
+    <!-- Info -->
+    <section class="padding">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span8">
 
-			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyfourteen' ), get_search_query() ); ?></h1>
-			</header><!-- .page-header -->
+                    <?php if (have_posts()) : ?>
 
-				<?php
-					// Start the Loop.
-					while ( have_posts() ) : the_post();
+                        <?php printf(
+                            __('Search Results for: %s', 'twentyfourteen'),
+                            get_search_query()
+                        ); ?>
 
-						/*
-						 * Include the post format-specific template for the content. If you want to
-						 * use this in a child theme, then include a file called called content-___.php
-						 * (where ___ is the post format) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
+                        <?php
+                        // Start the Loop.
+                        while (have_posts()) : the_post();
 
-					endwhile;
-					// Previous/next post navigation.
-					twentyfourteen_paging_nav();
+                            /*
+                             * Include the post format-specific template for the content. If you want to
+                             * use this in a child theme, then include a file called called content-___.php
+                             * (where ___ is the post format) and that will be used instead.
+                             */
+                            get_template_part('content', get_post_format());
 
-				else :
-					// If no content, include the "No posts found" template.
-					get_template_part( 'content', 'none' );
+                        endwhile;
+                        // Previous/next post navigation.
+                        twentyfourteen_paging_nav();
 
-				endif;
-			?>
+                    else :
+                        // If no content, include the "No posts found" template.
+                        get_template_part('content', 'none');
 
-		</div><!-- #content -->
-	</section><!-- #primary -->
+                    endif;
+                    ?>
 
+
+                </div>
+                <!-- Sidebars -->
+                <div class="span4 sidebars">
+                    <?php get_sidebar('content'); ?>
+                    <?php get_sidebar(); ?>
+                </div>
+                <!-- End Sidebars -->
+            </div>
+        </div>
+        <!-- End Container-->
+    </section>
+    <!-- End Info-->
 <?php
-get_sidebar( 'content' );
-get_sidebar();
+
 get_footer();
