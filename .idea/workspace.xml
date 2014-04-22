@@ -23,20 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/app/views/home.blade.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/twentyfourteen/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="96" selection-start="736" selection-end="736" vertical-scroll-proportion="0.49726775" vertical-offset="154" max-vertical-offset="4312">
+            <state line="16" column="6" selection-start="481" selection-end="481" vertical-scroll-proportion="-1.9090909" vertical-offset="0" max-vertical-offset="756">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/public/css/style.css">
+      <file leaf-file-name="general-template.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/general-template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="609" column="36" selection-start="11605" selection-end="11605" vertical-scroll-proportion="0.0" vertical-offset="8334" max-vertical-offset="25900">
-              <folding />
+            <state line="23" column="9" selection-start="493" selection-end="493" vertical-scroll-proportion="-10.272727" vertical-offset="26" max-vertical-offset="40950">
+              <folding>
+                <marker date="1397536936000" expanded="true" signature="48626:48632" placeholder="..." />
+                <marker date="1397536936000" expanded="true" signature="49752:49758" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/twentyfourteen/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="2269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="994">
+              <folding>
+                <element signature="e#6#207#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
         <option value="$PROJECT_DIR$/template/Jekas/html/services.html" />
         <option value="$PROJECT_DIR$/template/Jekas/html/index.html" />
         <option value="$PROJECT_DIR$/laravel/app/views/testimonials.blade.php" />
@@ -67,15 +80,16 @@
         <option value="$PROJECT_DIR$/laravel/app/views/master.blade.php" />
         <option value="$PROJECT_DIR$/laravel/public/css/style.css" />
         <option value="$PROJECT_DIR$/laravel/app/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/twentyfourteen/header.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1679" />
-    <option name="y" value="22" />
-    <option name="width" value="1368" />
-    <option name="height" value="746" />
+    <option name="x" value="-1" />
+    <option name="y" value="116" />
+    <option name="width" value="1682" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -132,7 +146,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
+              <option name="myItemId" value="wordpress" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -146,11 +160,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
+              <option name="myItemId" value="wordpress" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="wp-content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -164,11 +178,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
+              <option name="myItemId" value="wordpress" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="investomedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="investomedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twentyfourteen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="investomedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="investomedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twentyfourteen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -221,13 +291,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1679" y="22" width="1368" height="746" extended-state="6" />
+    <frame x="-1" y="116" width="1682" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32072368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2138158" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -235,7 +305,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20227273" sideWeight="0.6792763" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16340269" sideWeight="0.7861842" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -257,37 +327,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template/Jekas/html/page-full-width.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="18" selection-start="7485" selection-end="11588" vertical-scroll-proportion="0.92840374" vertical-offset="1687" max-vertical-offset="4410" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/Jekas/html/tables_princing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="34" selection-start="8386" selection-end="14297" vertical-scroll-proportion="0.8028169" vertical-offset="2900" max-vertical-offset="7686" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/Jekas/html/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1484" selection-end="13061" vertical-scroll-proportion="0.0" vertical-offset="574" max-vertical-offset="5628">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/our_services.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="14" selection-start="2936" selection-end="2936" vertical-scroll-proportion="-14.297873" vertical-offset="700" max-vertical-offset="4830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/Jekas/html/elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="777" column="0" selection-start="38734" selection-end="41466" vertical-scroll-proportion="-17.0" vertical-offset="10079" max-vertical-offset="12796">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/contact_us.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="24" selection-start="894" selection-end="2959" vertical-scroll-proportion="0.87052023" vertical-offset="521" max-vertical-offset="1442">
@@ -344,9 +383,7 @@
     <entry file="file://$PROJECT_DIR$/laravel/app/views/common/navigation.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="23" selection-start="447" selection-end="447" vertical-scroll-proportion="0.420765" vertical-offset="0" max-vertical-offset="476">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -359,15 +396,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="609" column="36" selection-start="11605" selection-end="11605" vertical-scroll-proportion="0.0" vertical-offset="8334" max-vertical-offset="25900">
+        <state line="609" column="36" selection-start="11605" selection-end="11605" vertical-scroll-proportion="0.49484536" vertical-offset="8334" max-vertical-offset="25900">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="96" selection-start="736" selection-end="736" vertical-scroll-proportion="0.49726775" vertical-offset="154" max-vertical-offset="4312">
+        <state line="24" column="96" selection-start="736" selection-end="736" vertical-scroll-proportion="-8.272727" vertical-offset="154" max-vertical-offset="4312">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/twentytwelve/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/twentytwelve/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="322">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/twentyfourteen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="481" selection-end="481" vertical-scroll-proportion="-1.9090909" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="9" selection-start="493" selection-end="493" vertical-scroll-proportion="-10.272727" vertical-offset="26" max-vertical-offset="40950">
+          <folding>
+            <marker date="1397536936000" expanded="true" signature="48626:48632" placeholder="..." />
+            <marker date="1397536936000" expanded="true" signature="49752:49758" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/twentyfourteen/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="2269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="994">
+          <folding>
+            <element signature="e#6#207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
