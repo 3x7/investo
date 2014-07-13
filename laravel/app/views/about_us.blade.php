@@ -63,58 +63,34 @@
         <!-- Info -->
         <section class="padding">
             <div class="container">
-                <p>Investomedia Ltd is new and refreshing media company looking
-                    focusing primarily on Investment and trading. We have been
-                    working in this sector over the past 10 years with the last
-                    4 years’ experience working in a direct response media
-                    agency. </p>
-
                 <div class="row-fluid">
-                    <div class="span8">
-                        <p>So who is heading this all up?</p>
-                        <p>Yep me Karen Castaneda</p>
-                        <p>I will take this time to apologise for those million
-                            and one phone calls I make to you on a daily basis,
-                            any of those I have offended. Before you ask, no I
-                            am not related to Carlos Castaneda the famous
-                            writer, I do wish I was and Uncle Carlos if I am
-                            please do leave my name in your will. Also although
-                            I have a very English cockney accent I am Colombian
-                            and speak Spanish with a very decent Latina
-                            accent. </p>
-                        <p>We have worked with all different types of companies
-                            and budgets and are completely flexible on how we
-                            work with you. Why are we refreshing? Because we
-                            know what we are talking about! We won’t waste your
-                            time, we won’t over promise and we will deliver. Our
-                            relationships are built on solid foundations and our
-                            work ethic is second to none. </p>
-                    </div>
-                    <div class="span4">
-                        <img class="img-responsive img-polaroid" src="img/me.jpg" alt="Karen Castaneda">
-                    </div>
-                </div>
-
-                <div class="row-fluid">
-
                     <div class="span12">
-                        <p>Now the serious bit, why I am I doing this? Firstly for my
-                            family especially my daughter Isabella, she needs me and I
-                            need her. Secondly because business is in my blood, so is
-                            making money and building relationships. My parents taught
-                            me what hard work is all about they have owned several
-                            businesses and made them successful so I dedicate this to
-                            them, my heroes, and my role models.</p>
-                        <p>Now you know a bit about me, give me a call and let
-                            me know about you, your needs and how I can help
-                            you.</p>
-                    </div>
-                </div>
-
+			<p>Investomedia Ltd is an approachable and professional marketing consultancy based in London. We are unique in that we not only offer advice on how to get the best from your marketing activity, but we can also deliver the initiatives that this advice identifies.</p> 
+		    </div>
+		</div>
+                <div class="row-fluid">
+                    <div class="span12">
+			<p>We have one key objective - to work with organisations that don’t have a full internal marketing function, but really need help or advice with how their business, their brand, their products and/or their services are marketed. </p>
+		     </div>
+		</div>
+                <div class="row-fluid">
+                    <div class="span12">
+			<p>Investomedia Ltd is not incentivised to push a particular marketing initiative. We are about working with our clients either helping them to become better at the areas of marketing that they may not be able to do themselves or taking the whole marketing process off their desks onto ours and then planning and delivering what is needed efficiently, effectively and at the best costs.</p> 
+		    </div>
+		</div>
+                <div class="row-fluid">
+                    <div class="span12">
+			<p>We have no intention of becoming a traditional marketing “agency” with swanky offices and lots of employees meaning we have high overheads to cover through excessive hourly rates. No thanks; been there and done that. What Investomedia Ltd has is an experienced Marketing and Business development manager who specialises in identifying and delivering your marketing and sales requirements. We also have a team of external associates; specialists in their chosen field, who we call upon as and when they are needed.</p> 
+		    </div>
+		</div>
+                <div class="row-fluid">
+                    <div class="span12">
+			<p>This is why Investomedia Ltd is a different marketing organisation. We actually add value to the marketing processes of our clients rather than simply doing as we are asked. We know that organisations want professional help and advice with their marketing where someone experienced and consistent invests time in their business and they in return can operate a knowing that they have access to the best team to deliver their marketing.</p>
+		    </div>
+		</div>
             </div>
             <!-- End Container-->
         </section>
-
 
     </section>
     <!-- End content info-->

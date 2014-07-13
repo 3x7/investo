@@ -3,7 +3,7 @@
 .flex-control-paging li a.flex-active,
 .index_static,
 .camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span{
-	background-color: #FF5842;
+	background-color: #999;
 }
 
 .caption-head:hover{
@@ -15,7 +15,7 @@
 }
 .index_static,
 .section_title{
-	background: #FF5842 url("../../../img/bg_index_static.png");
+	/* background: #FF5842 url("../../../img/bg_index_static.png"); */
 }
 .overlay{
 	background: #FF5842 url("../../../img/more.png") no-repeat center center;;

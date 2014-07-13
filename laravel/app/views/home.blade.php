@@ -192,26 +192,6 @@
     </div>
     <!-- End Info resalt-->
 
-    <!-- testimonials-->
-    <section class="info_resalt border_top">
-        <div class="comments_carousel" id="comments_carousel">
-            <ul class="slides">
-                <li>
-                    <div class="image">
-                        <img src="img/me.jpg" alt="Image">
-                    </div>
-                    <div class="arrow_coment"></div>
-                    <div class="name">
-                        <h3>Yep, that's me Karen Castaneda</h3>
-                    </div>
-                    <div class="job">
-                        <h3>Self confessed marketing fanatic</h3>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- End testimonials-->
 
     <!-- Info title-->
     <div class="row-fluid info_title top_animationd" id="contact">

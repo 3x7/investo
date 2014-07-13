@@ -79,8 +79,8 @@
                     <p>London</p>
                     <p>E1 8EW</p>
                     <p>Company Registration: 08849124</p>
-                    <p><a href="mailto:karen@investomedia.co.uk"><i class="icon-envelope-alt"></i> karen@investomedia.co.uk</a></p>
-                    <p><i class="icon-phone"></i> 07800 904011</p>
+                    <p><a href="mailto:enquiry@investomedia.co.uk"><i class="icon-envelope-alt"></i>&nbsp;enquiry@investomedia.co.uk</a></p>
+                    <p><i class="icon-phone"></i> 02086401815</p>
                 </div>
             </div>
 
