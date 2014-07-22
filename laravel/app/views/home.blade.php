@@ -19,96 +19,10 @@
                 <div class="container">
                     <div class="row-fluid">
                         <div class="span12">
-                            <h1 class="animated fadeInDown transparent"><span>Lead</span>
-                                Generation.</h1>
-
-                            <p class="animated fadeInUp transparent">We work with you to create lead generation campaigns</p>
-                            <a href="/contact_us"
-                               class="button animated fadeInUp"><span><i
-                                        class="icon-envelope-alt"></i></span>Generate more sales</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Item Slide -->
-
-        <!-- Item Slide -->
-        <div data-src="img/slide/slides/2.jpg">
-            <div class="camera_caption fadeFromLeft">
-                <div class="container">
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <h1 class="animated fadeInDown transparent"><span>1on1</span>Marketing
-                                consultancy.</h1>
-
-                            <p class="animated fadeInUp transparent">We can work on your marketing in house</p>
-                            <a href="/contact_us"
-                               class="button animated fadeInUp"><span><i
-                                        class="icon-envelope-alt"></i></span>Expert marketing strategy</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Item Slide -->
-
-        <!-- Item Slide -->
-        <div data-src="img/slide/slides/3.jpg">
-            <div class="camera_caption fadeFromLeft">
-                <div class="container">
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <h1 class="animated fadeInDown transparent"><span>List </span>Management.
-                            </h1>
-
-                            <p class="animated fadeInUp transparent">We can help you raise
-                                money for your marketing needs</p>
-                            <a href="/contact_us"
-                               class="button animated fadeInUp"><span><i
-                                        class="icon-envelope-alt"></i></span> Managed marketing lists</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Item Slide -->
-
-        <!-- Item Slide -->
-        <div data-src="img/slide/slides/4.jpg">
-            <div class="camera_caption fadeFromLeft">
-                <div class="container">
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <h1 class="animated fadeInDown transparent"><span>Creative </span> and <span>Technical</span>.</h1>
-
-                            <p class="animated fadeInUp transparent">Design, Development, creative and branding services</p>
-                            <a href="/contact_us"
-                               class="button animated fadeInUp"><span><i
-                                        class="icon-envelope-alt"></i></span> Develop your online presence</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Item Slide -->
-
-        <!-- Item Slide -->
-        <div data-src="img/slide/slides/5.jpg">
-            <div class="camera_caption fadeFromLeft">
-                <div class="container">
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <h1 class="animated fadeInDown transparent">Product <span>discovery</span>.
-                            </h1>
-
-                            <p class="animated fadeInUp transparent">Introduce Low risk
-                                products for your clients.</p>
-                            <a href="/contact_us"
-                               class="button animated fadeInUp"><span><i
-                                        class="icon-envelope-alt"></i></span>We
-                                can assist with Product Discovery</a>
+                            <h1 class="animated transparent"><a href="/our_services#LeadGeneration"><span>Lead</span> Generation.</a></h1>
+                            <h1 class="animated transparent"><a href="/our_services#1on1MarketingConsultancy"><span>1on1</span>Marketing consultancy.</a></h1>
+                            <h1 class="animated transparent"><a href="/our_services#ListManagement"><span>List </span>Management.</a></h1>
+                            <h1 class="animated transparent"><a href="/our_services#ProductDiscovery">Product <span>discovery</span>.</a></h1>
                         </div>
                     </div>
                 </div>

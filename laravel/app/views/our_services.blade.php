@@ -42,7 +42,7 @@
 <section class="content_info">
 
 <!-- Info title-->
-<div class="row-fluid info_title animated fadeInUp delay2">
+<div class="row-fluid info_title animated fadeInUp delay2" id="our_services_container">
     <div class="vertical_line">
         <div class="circle_top"></div>
     </div>
@@ -52,7 +52,6 @@
     </div>
     <div class="vertical_line"></div>
 
-    <i class="icon-cogs right"></i>
 </div>
 <!-- End Info title-->
 
@@ -103,7 +102,7 @@
 
 <!-- Info resalt-->
 <div class="info_resalt borders">
-    <div class="container">
+    <div class="container" id="LeadGeneration">
         <div class="row-fluid">
             <div class="span8">
                 <h2>Lead Generation</h2>
@@ -115,14 +114,14 @@
                     about the results that can be achieved and then work with
                     you to achieve these.</p>
 
-                <div class="row-fluid padding_top_mini"><a href="#"
+                <div class="row-fluid padding_top_mini"><a href="/contact_us"
                                                            class="button"><i
                             class="icon-envelope-alt"></i> We can help you with Lead Generation</a></div>
             </div>
             <!-- Image animation-->
             <div class="span4 image_resalt">
                 <div class="animation">
-                    <img src="img/services/1.png" alt="Image">
+                    <img src="img/services/3.png" alt="Image">
                 </div>
             </div>
             <!-- End Image animation-->
@@ -133,7 +132,7 @@
 
 <!-- Info White-->
 <div class="info_white">
-    <div class="container">
+    <div class="container" id="#1on1MarketingConsultancy">
         <div class="row-fluid">
             <!-- Image animation-->
             <div class="span7 image_resalt">
@@ -154,7 +153,7 @@
                     marketing in house creating a monthly, quarterly or yearly
                     strategy that suits everyone especially your sales team.</p>
 
-                <div class="row-fluid padding_top_mini"><a href="#"
+                <div class="row-fluid padding_top_mini"><a href="/contact_us"
                                                            class="button"><i
                             class="icon-envelope-alt"></i> Let us assist your marketing and sales team</a></div>
             </div>
@@ -165,7 +164,7 @@
 
 <!-- Info resalt-->
 <div class="info_resalt borders">
-    <div class="container">
+    <div class="container" id="#ListManagement">
         <div class="row-fluid">
             <div class="span8">
                 <h2>List Management</h2>
@@ -178,7 +177,7 @@
                     can help you raise money for your marketing needs, get in
                     touch.</p>
 
-                <div class="row-fluid padding_top_mini"><a href="#"
+                <div class="row-fluid padding_top_mini"><a href="/contact_us"
                                                            class="button"><i
                             class="icon-envelope-alt"></i> We can help your raise money for marketing</a></div>
             </div>
@@ -196,7 +195,7 @@
 
 <!-- Info White-->
 <div class="info_white">
-    <div class="container">
+    <div class="container" id="#OurMedia">
         <div class="row-fluid">
             <!-- Image animation-->
             <div class="span7 image_resalt">
@@ -209,7 +208,7 @@
                 <h2>Our Media</h2>
                 <p class="lead">(Will send bits over after for this)</p>
                 <p>(Will send bits over after for this)</p>
-                <div class="row-fluid padding_top_mini"><a href="#"
+                <div class="row-fluid padding_top_mini"><a href="/contact_us"
                                                            class="button"><i
                             class="icon-envelope-alt"></i> Want to find out more about our media</a></div>
             </div>
@@ -220,7 +219,7 @@
 
 <!-- Info resalt-->
 <div class="info_resalt borders">
-    <div class="container">
+    <div class="container" id="#ProductDiscovery">
         <div class="row-fluid">
             <div class="span8">
                 <h2>Product discovery</h2>
@@ -231,7 +230,7 @@
                 <p>Please contact us if you are interested Low risk products for
                     your clients. </p>
 
-                <div class="row-fluid padding_top_mini"><a href="#"
+                <div class="row-fluid padding_top_mini"><a href="/contact_us"
                                                            class="button"><i
                             class="icon-envelope-alt"></i> Let us introduce low risk products to your clients </a></div>
             </div>

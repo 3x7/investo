@@ -42,7 +42,7 @@
 <section class="content_info">
 
 <!-- Info title-->
-<div class="row-fluid info_title">
+<div class="row-fluid info_title" id="testimonials_container">
     <div class="vertical_line">
         <div class="circle_bottom"></div>
     </div>

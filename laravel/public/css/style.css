@@ -156,7 +156,9 @@ h1, h2, h3, h4, h5, h6 {
 	color: #403e3d;
 	font-family: 'OpenSansBold', Arial, sans-serif;
 }
-
+blockquote {
+    background: #f7f5f2;
+}
 /* Class and styles General ----------------------------*/
 
 .clearfix{
@@ -206,7 +208,6 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 5px;		
 	font-weight: 600;	
 	padding: 12px 25px;		
-	text-shadow: 0 -1px 0 #A82D21;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -322,12 +323,14 @@ dt{
 }
 .info_vertical p{
 	font-size: 23px;
-	line-height: 33px;	
-	margin: 0;
+	line-height: 33px;
+	margin: 10px 0;
 	width: 100%;
+    background: #f7f5f2;
 }
 .info_vertical h2{
 	padding:10px 0 10px 0;
+    background: #f7f5f2;
 }
 
 /* Animation ------------------------------------*/
@@ -567,12 +570,12 @@ header .container{
 
 /* Sections Titles  ----------------------------*/
 
-.section_title{			
-	padding: 90px 0 40px 0;
+.section_title{
+	padding: 90px 0 30px 0;
 	overflow: visible;
 }
 .section_title h1{
-	color: #fff;	
+	color: #cecce7;
 	padding: 0;
 }
 .section_title p{
@@ -611,17 +614,17 @@ header .container{
 }
 
 .logo img{
-	max-width: 100%;	
+	max-width: 100%;
 }
-.nav_logo{	
-	width: 100%;	
+.nav_logo{
+	width: 100%;
 	z-index: 999;
 	padding: 5px 0;
 	background: #fff;
 	background: rgba(255, 255, 255, 0.85);
 }
 .sticky-wrapper{
-	position: fixed;
+/*	position: fixed; */
 	z-index: 999;
 	width: 100%;
 	top: 0;
@@ -636,16 +639,16 @@ header .container{
 }
 
 
-.tinynav{ 
-	display: none 
+.tinynav{
+	display: none
 }
-.sf-menu{	
+.sf-menu{
 	margin:0;
-	float: right;		
-	padding-top: 7px;	
+	float: right;
+	padding-top: 7px;
 }
 .sf-menu ul{
-	position:absolute;	
+	position:absolute;
 	list-style: none;
 	top:-999em;
 	width:170px;
@@ -653,19 +656,19 @@ header .container{
 }
 .sf-menu > li{
 	position: relative;
-	float:left;	
-	list-style: none;	
+	float:left;
+	list-style: none;
 	line-height: 20px;
 	margin:0 40px 0 0;
 }
 
-.sf-menu > li:last-child {	
+.sf-menu > li:last-child {
 	margin:0;
 }
 .sf-menu > li > a {
 	text-decoration:none;
 	display:block;
-	font-size:17px;	
+	font-size:17px;
 	font-weight: 600;
 	color:#4D4478;
 }
@@ -686,7 +689,7 @@ header .container{
 	overflow:hidden;
 	padding:12px 15px;
 	background: #111111;
-	background: rgba(17, 17, 17, 0.75);	
+	background: rgba(17, 17, 17, 0.75);
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -695,11 +698,11 @@ header .container{
 }
 .sf-menu li li{
 	float:none;
-	position:relative;	
+	position:relative;
 }
 .sf-menu li li a:hover{
-	background-color: #555;	
-	color: #fff;	
+	background-color: #555;
+	color: #fff;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -709,9 +712,6 @@ header .container{
 .sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul{left:145px;top:0;}
 
 
-.content_info{
-	padding: 20px 0px 0 0;
-}
 
 /* Galley Carousel ------------------------------------*/
 
@@ -723,8 +723,8 @@ header .container{
 	padding: 5px;
 	max-width: 296px;
 	background: #fff;
-	border:solid 1px #cdcdcd;	
-	text-align: left;	
+	border:solid 1px #cdcdcd;
+	text-align: left;
 }
 .flexslider .gallery li .hover{
 	position: relative;
@@ -741,11 +741,11 @@ header .container{
 	font-size: 15px;
 }
 .overlay{
-	position: absolute;	
+	position: absolute;
 	left: 0;
-	top: -400px;	
+	top: -400px;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 	z-index: 1;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
@@ -755,7 +755,7 @@ header .container{
 }
 .flexslider .gallery li:hover .overlay{
 	top: 0;
-	cursor: pointer;	
+	cursor: pointer;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -765,8 +765,8 @@ header .container{
 
 /* filtrers -------------------------------------------*/
 
-ul.filter{			
-	display: table;	
+ul.filter{
+	display: table;
 	margin: 0 auto;
 	margin-bottom: 50px;
 	border-bottom: 1px solid #cdcdcd;
@@ -774,8 +774,8 @@ ul.filter{
 	padding: 10px 0;
 }
  ul.filter li{
-	list-style: none;		
-	color: #0f0e0f;	
+	list-style: none;
+	color: #0f0e0f;
 	float: left;
 	padding:0 35px;
 	text-align: center;
@@ -794,17 +794,17 @@ ul.filter li a{
 	list-style: none;
 }
 #portfolio-list li img{
-	width: 100%;	
+	width: 100%;
 }
 #portfolio-list li {
-	padding: 5px;	
+	padding: 5px;
 	background: #fff;
 	max-width: 355px;
-	border:solid 1px #cdcdcd;	
-	text-align: left;	
+	border:solid 1px #cdcdcd;
+	text-align: left;
 	margin: 0 20px 20px 0;
 }
-#portfolio-list li.span3 {	
+#portfolio-list li.span3 {
 	margin: 0 10px 20px 0;
 	max-width: 270px;
 }
@@ -824,7 +824,7 @@ ul.filter li a{
 }
 #portfolio-list li:hover .overlay{
 	top: 0;
-	cursor: pointer;	
+	cursor: pointer;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -881,18 +881,18 @@ ul.filter li a{
 	padding-right: 10px;
 	font-size: 18px;
 }
-.accordion-trigger:hover{	
+.accordion-trigger:hover{
 	-webkit-transition: all .1s linear;
 	-moz-transition: all .1s linear;
 	-o-transition: all .1s linear;
 	transition: all .1s linear;
 }
 .accordion-trigger.active,
-.accordion-trigger:hover{	
+.accordion-trigger:hover{
 	color: #fff;
 	background: #999 url("../img/toggle.png") no-repeat right -69px;
 }
-.accordion-container{	
+.accordion-container{
 	padding:10px 0;
 }
 .accordion-container p{
@@ -904,9 +904,9 @@ ul.filter li a{
 footer{
 	background: url("../img/arrow_footer.png") no-repeat center top;
 	background-color: #1C1C1C;
-	padding: 80px 0;	
+	padding: 80px 0;
 	color: #fff;
-	font-weight: 600;	
+	font-weight: 600;
 }
 footer p{
 	margin: 0;
@@ -915,7 +915,7 @@ footer p{
 footer h3{
 	font-size: 18px;
 	color: #fff;
-	margin-bottom: 30px;	
+	margin-bottom: 30px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #2c2c2c;
 }
@@ -950,7 +950,7 @@ footer .input-prepend .add-on{
 	background: #ddd;
 	height: 26px;
 }
-footer .input-prepend .add-on i{	
+footer .input-prepend .add-on i{
 	color: #222;
 }
 footer .button{
@@ -980,7 +980,7 @@ footer .button{
 }
 .social li span{
 	background: #555;
-	margin-right: 15px;	
+	margin-right: 15px;
 	-webkit-transition: 0.2s all ease;
 	-moz-transition: 0.2s all ease;
 	-o-transition: 0.2s all ease;
@@ -1053,21 +1053,21 @@ footer .button{
 .comments_carousel ul li{
 	position: relative;
 }
-.comments_carousel .image{	
-	width: 160px;	
+.comments_carousel .image{
+	width: 160px;
 	margin: 0 auto;
 	height: 150px;
 	border-radius: 50%;
 	background: #000;
-	position: relative;	
-	overflow: hidden;	
+	position: relative;
+	overflow: hidden;
 }
-.comments_carousel .image img{	
-	width: 160px;	
+.comments_carousel .image img{
+	width: 160px;
 	height: 150px;
 	border-radius: 50%;
 }
-.arrow_coment{	
+.arrow_coment{
 	width: 100%;
 	height: 17px;
 	position: absolute;
@@ -1087,7 +1087,7 @@ footer .button{
 	border-top: 2px solid #999;
 	border-bottom: 2px solid #999;
 	padding: 20px 0;
-	width: 42%;	
+	width: 42%;
 	position: absolute;
 	right: 0;
 	top: 17%;
@@ -1109,7 +1109,7 @@ footer .button{
 
 .item_table{
 	border-radius: 4px;
-	border: solid 1px #cdcdcd;		
+	border: solid 1px #cdcdcd;
 	background-color: #fff;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
@@ -1118,7 +1118,7 @@ footer .button{
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
 	-ms-transition: 0.3s all ease;
-	transition: 0.3s all ease;	
+	transition: 0.3s all ease;
 }
 .item_table:hover{
 	margin-top: -5px;
@@ -1126,12 +1126,12 @@ footer .button{
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
 	-ms-transition: 0.3s all ease;
-	transition: 0.3s all ease;	
+	transition: 0.3s all ease;
 }
 .head_table{
-	color: #fff;	
+	color: #fff;
 	background-color: #423C24;
-	position: relative;	
+	position: relative;
 	z-index: 5;
 	text-align: center;
 }
@@ -1140,10 +1140,9 @@ footer .button{
 	margin:0;
 	font-size: 25px;
 	line-height: 35px;
-	padding: 10px 0;	
-	border-bottom: 1px solid #cdcdcd;
+	padding: 10px 0;
 }
-.head_table h2{	
+.head_table h2{
 	font-size: 30px;
 	margin: 0;
 	padding: 10px 0 0 0;
@@ -1163,7 +1162,7 @@ footer .button{
 	z-index: -1;
 	background: url("../img/arrow_table.png") no-repeat center;
 	background-repeat: repeat-x;
-	bottom: -28px;	
+	bottom: -27px;
 	height: 32px;
 	width: 100%;
 	left: 0;
@@ -1198,26 +1197,26 @@ footer .button{
 	margin-top: -40px;
 }
 .promotion_table .head_table{
-	color: #fff;		
-	position: relative;	
+	color: #fff;
+	position: relative;
 	z-index: 5;
 	text-align: center;
 }
 .promotion_table .head_table h2{
-	color: #fff;	
+	color: #fff;
 }
 .promotion_table .head_table h1{
-	
+
 }
 .promotion_table .arrow_table{
 	position: absolute;
 	z-index: -1;
 	background: url("../img/arrow_table_promotion.png") no-repeat center;
 	background-repeat: repeat-x;
-	bottom: -28px;	
+	bottom: -28px;
 	height: 32px;
 	width: 100%;
-	left: 0;	
+	left: 0;
 }
 .promotion_table h2{
 	color: #43402f;
@@ -1259,7 +1258,7 @@ footer .button{
 	color: #fff;
 }
 .comment .social li:hover{
-	margin-left: 0;	
+	margin-left: 0;
 }
 .form_comment input,
 .form_comment textarea{
@@ -1286,7 +1285,27 @@ aside .form-control{
 	width: 68%;
 }
 
+/* ---------------------------------------------------------------------- */
+/* Picture backgrounds on the different pages                             */
+/* ---------------------------------------------------------------------- */
+#about_us_container {
+    background: url("/img/news_bg.JPG") no-repeat 106px -125px;
+}
 
+#our_services_container {
+    background: url("/img/our_services.jpg") no-repeat 202px 50px;
+}
+
+#testimonials_container {
+    background: url("/img/testimonials.jpg") no-repeat 386px 93px;
+}
+
+.camera_pie {
+    display: none;
+}
+.camera_pag{
+    display: none;
+}
 /* ---------------------------------------------------------------------- */
 /*	 0.4 Version 1920px
 /* ---------------------------------------------------------------------- */
@@ -1296,29 +1315,34 @@ aside .form-control{
 	/* camera_caption*/
 
 	.camera_caption{
-		padding-top:4%;	
+		padding-top:4%;
 	}
 	.camera_caption img{
 		width: 100%;
-		position: relative;	
-		padding-top: 10%;	
+		position: relative;
+		padding-top: 10%;
 	}
+    .camera_caption h1 a,
+    .index_static h1 a{
+        color: #fff;
+    }
+
 	.camera_caption h1,
-	.index_static h1{	
+	.index_static h1{
 		font-size: 75px;
 		width: 85%;
-		line-height: 90px;		
+		line-height: 90px;
 	}
 	.camera_caption h1 span,
-	.index_static h1 span{			
+	.index_static h1 span{
 		font-size: 85px;
 		line-height: 95px;
 	}
 	.camera_caption p,
-	.index_static p{		
-		width: 100%;			
+	.index_static p{
+		width: 100%;
 		font-size: 40px;
-		line-height: 50px;			
+		line-height: 50px;
 	}
 
 }
@@ -1333,29 +1357,29 @@ aside .form-control{
 	/* camera_caption*/
 
 	.camera_caption{
-		padding-top:6%;	
+		padding-top:6%;
 	}
 	.camera_caption img{
 		width: 100%;
-		position: relative;	
-		padding-top: 10%;	
+		position: relative;
+		padding-top: 10%;
 	}
 	.camera_caption h1,
-	.index_static h1{	
+	.index_static h1{
 		font-size: 50px;
 		width: 80%;
-		line-height: 60px;		
+		line-height: 60px;
 	}
 	.camera_caption h1 span,
-	.index_static h1 span{			
+	.index_static h1 span{
 		font-size: 60px;
 		line-height: 70px;
 	}
 	.camera_caption p,
-	.index_static p{		
-		width: 85%;			
+	.index_static p{
+		width: 85%;
 		font-size: 30px;
-		line-height: 40px;			
+		line-height: 40px;
 	}
 
 }
@@ -1365,42 +1389,42 @@ aside .form-control{
 /* ---------------------------------------------------------------------- */
 
 @media handheld, only screen and (max-width: 1024px) {
-	
+
 
 	/* camera_caption*/
 
 	.camera_caption{
-		padding-top:4%;	
+		padding-top:4%;
 	}
 	.camera_caption img{
 		width: 100%;
-		position: relative;	
-		padding-top: 10%;	
+		position: relative;
+		padding-top: 10%;
 	}
 	.camera_caption h1,
-	.index_static h1{	
+	.index_static h1{
 		font-size: 35px;
 		width: 80%;
-		line-height:45px;		
+		line-height:45px;
 	}
 	.camera_caption h1 span,
-	.index_static h1 span{			
+	.index_static h1 span{
 		font-size: 40px;
 		line-height: 50px;
 	}
 	.camera_caption p,
-	.index_static p{				
+	.index_static p{
 		font-size: 20px;
-		line-height: 30px;			
+		line-height: 30px;
 	}
 	.camera_caption .button,
 	.index_static .button{
-		font-size: 18px;		
-		padding:8px 25px;				
-	}	
+		font-size: 18px;
+		padding:8px 25px;
+	}
 	.camera_caption .button span,
 	.index_static .button span{
-		font-size: 24px;		
+		font-size: 24px;
 	}
 
 	.index_static{
@@ -1412,11 +1436,11 @@ aside .form-control{
 		width: auto;
 	}
 
-	#portfolio-list li {		
-		max-width: 290px;		
+	#portfolio-list li {
+		max-width: 290px;
 		margin: 0 5px 20px 5px;
 	}
-	#portfolio-list li.span3 {	
+	#portfolio-list li.span3 {
 		margin: 0 5px 20px 5px;
 		max-width: 210px;
 	}
@@ -1425,10 +1449,10 @@ aside .form-control{
 	/* Comments -------------------------------------------*/
 
 	.name,
-	.job{				
-		width: 40%;					
+	.job{
+		width: 40%;
 	}
-	.comments_carousel p{					
+	.comments_carousel p{
 		margin: 25px auto 10px auto;
 	}
 	.comments_carousel h3{
@@ -1444,60 +1468,60 @@ aside .form-control{
 /* ---------------------------------------------------------------------- */
 
 @media handheld, only screen and (max-width: 980px) {
-	
 
-	.sf-menu > li > a {		
-		font-size:15px;					
-		padding:0;		
+
+	.sf-menu > li > a {
+		font-size:15px;
+		padding:0;
 	}
 	.sf-menu > li{
-		margin:0 15px 0 0;	
+		margin:0 15px 0 0;
 	}
 	.sf-menu > li:last-child{
-		margin:0;	
+		margin:0;
 	}
 
 
 	/* camera_caption*/
 
 	.camera_caption{
-		padding-top:5%;	
+		padding-top:5%;
 	}
 	.camera_caption img{
 		width: 90%;
-		position: relative;	
-		padding-top: 16%;	
+		position: relative;
+		padding-top: 16%;
 	}
 	.camera_caption h1,
-	.index_static h1{	
+	.index_static h1{
 		font-size: 25px;
 		width: 80%;
-		line-height:35px;		
+		line-height:35px;
 	}
 	.camera_caption h1 span,
-	.index_static h1 span{		
+	.index_static h1 span{
 		font-size: 30px;
 		line-height: 40px;
 	}
 	.camera_caption p,
-	.index_static p{				
+	.index_static p{
 		font-size: 16px;
-		line-height: 26px;			
+		line-height: 26px;
 	}
 	.camera_caption .button,
-	.index_static .button{	
-		font-size: 15px;		
-		padding:5px 25px;				
-	}	
+	.index_static .button{
+		font-size: 15px;
+		padding:5px 25px;
+	}
 	.camera_caption .button span,
 	.index_static .button span{
-		font-size: 18px;		
+		font-size: 18px;
 	}
 
 
 	.caption-head{
 		height:170px;
-		width:170px;			
+		width:170px;
 	}
 	.icon-big{
 		font-size:3em;
@@ -1540,7 +1564,7 @@ aside .form-control{
 		padding: auto 20px;
 	}
 	#menu{
-		display: none;	
+		display: none;
 	}
 	.tinynav {
 		display: inline;
@@ -1548,9 +1572,9 @@ aside .form-control{
 		top: 4px;
 		border-radius: 0;
 		border: 1px solid #dbdbdb;
-		height: 30px;	
-	} 
-	.logo img{		
+		height: 30px;
+	}
+	.logo img{
 		padding: 0 0 0 20px;
 		text-align: left;
 	}
@@ -1566,10 +1590,10 @@ aside .form-control{
 
 	/* Sections Titles  ----------------------------*/
 
-	.section_title{			
+	.section_title{
 		padding: 100px 0 40px 0;
 		text-align: center;
-	}	
+	}
 	.section_title h1{
 		font-size: 30px;
 		line-height: 40px;
@@ -1585,11 +1609,11 @@ aside .form-control{
 	/* filtrers -------------------------------------------*/
 
 	 ul.filter li{
-		padding:0 10px;		
+		padding:0 10px;
 	}
 	#portfolio-list li,
-	#portfolio-list li.span3{		
-		max-width: 400px;		
+	#portfolio-list li.span3{
+		max-width: 400px;
 		margin: 0 auto 20px auto;
 	}
 
@@ -1597,14 +1621,14 @@ aside .form-control{
 		display: table;
 		margin: 0 auto;
 	}
-	
+
 
 	footer{
 		text-align: center;
 		padding: 40px 20px;
 	}
 
-	
+
 
 	.item_team{
 		margin-bottom: 20px;
@@ -1614,26 +1638,26 @@ aside .form-control{
 		display: none;
 	}
 	.info_resalt{
-		text-align: center;		
+		text-align: center;
 	}
-	
+
 	.item_table{
 		max-width: 300px;
 		margin: 0 auto;
 		margin-bottom: 30px;
 	}
 
-	.info_vertical{		
-		width: 90%;		
+	.info_vertical{
+		width: 90%;
 	}
 	.info_vertical h1{
 		font-size: 30px;
 		line-height: 35px;
-		width: 95%;		
+		width: 95%;
 	}
 	.info_vertical p{
 		font-size: 18px;
-		line-height: 23px;	
+		line-height: 23px;
 	}
 	.info_vertical h2{
 		padding:10px 0 10px 0;
@@ -1646,7 +1670,7 @@ aside .form-control{
 	/* camera_caption*/
 
 	.camera_caption{
-		padding-top:1%;	
+		padding-top:1%;
 		padding-left: 30px;
 	}
 	.index_static{
@@ -1663,12 +1687,12 @@ aside .form-control{
 	/* Comments -------------------------------------------*/
 
 	.name,
-	.job{				
-		width: 35%;					
+	.job{
+		width: 35%;
 	}
-	.comments_carousel p{					
+	.comments_carousel p{
 		width: 90%;
-	}	
+	}
 	.button{
 		display: inline;
 		width: auto;
@@ -1680,12 +1704,12 @@ aside .form-control{
 /*	 0.9 Version 685px
 /* ---------------------------------------------------------------------- */
 
-@media handheld, only screen and (max-width: 685px) {	
-	
+@media handheld, only screen and (max-width: 685px) {
+
 	/* camera_caption*/
 
 	.camera_caption{
-		padding-top:0%;	
+		padding-top:0%;
 		padding-left: 30px;
 	}
 
@@ -1696,16 +1720,16 @@ aside .form-control{
 /* ---------------------------------------------------------------------- */
 
 @media handheld, only screen and (max-width: 600px) {
-	
-	.camera_caption .button{	
-		display: none;			
-	}	
-	.index_static .button{	
-		padding: 8px;	
-	}	
+
+	.camera_caption .button{
+		display: none;
+	}
+	.index_static .button{
+		padding: 8px;
+	}
 	.camera_caption img,
 	.index_static img{
-		display: none;	
+		display: none;
 	}
 	.index_static .logo img{
 		display: block;
@@ -1714,10 +1738,10 @@ aside .form-control{
 	/* Comments -------------------------------------------*/
 
 	.name,
-	.job{				
-		width: 30%;					
+	.job{
+		width: 30%;
 	}
-	.comments_carousel p{					
+	.comments_carousel p{
 		width: 90%;
 	}
 	.comments_carousel h3{
@@ -1732,23 +1756,23 @@ aside .form-control{
 /* ---------------------------------------------------------------------- */
 
 @media handheld, only screen and (max-width: 480px) {
-	
+
 
 	/* camera_caption*/
 
 	.camera_caption{
-		padding-top:3%;	
+		padding-top:3%;
 		padding-left: 30px;
 	}
 	.camera_caption img{
 		display: none;
 	}
-	.camera_caption h1{	
+	.camera_caption h1{
 		font-size: 20px;
 		width: 80%;
-		line-height:24px;		
+		line-height:24px;
 	}
-	.camera_caption h1 span{		
+	.camera_caption h1 span{
 		font-size: 23px;
 		line-height: 26px;
 	}
@@ -1816,7 +1840,10 @@ aside .form-control{
 	.post{
 		width: 90%;
 	}
-	
+
+    .logo img {
+        max-width: 290px;
+    }
 }
 
 /* ---------------------------------------------------------------------- */
@@ -1836,9 +1863,7 @@ aside .form-control{
 		font-size: 14px;
 		line-height: 24px;		
 	}
-
-
-
+    .logo img {
+        max-width: 290px;
+    }
 }
-
-
