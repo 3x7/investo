@@ -42,7 +42,7 @@
             <div class="circle_top"></div>
         </div>
         <div class="info_vertical animated">
-            <h1><span>Bespoke</span> one on one marketing
+            <h1 style="font-style: italic;"><span>Bespoke</span> one on one marketing
                 <span>management</span> of <span>your product</span> to ensure
                 every penny you <span>spend</span> is the best penny you have
                 spent.</h1>
@@ -106,6 +106,40 @@
     </div>
     <!-- End Info resalt-->
 
+    <!-- Info title-->
+    <div class="row-fluid info_title">
+        <div class="vertical_line">
+            <div class="circle_bottom"></div>
+        </div>
+        <div class="info_vertical">
+            <h2>Our Services</h2>
+            <p>Lead Generation</p>
+            <p>1on1 Marketing consultancy</p>
+            <p>List Management</p>
+            <p>Media buying and planning</p>
+            <p>Media Sales</p>
+            <p>Design services</p>
+            <p>Product discovery</p>
+        </div>
+        <div class="vertical_line"></div>
+
+        <i class="icon-briefcase left"></i>
+    </div>
+    <!-- End Info title-->
+
+    <!-- Info resalt-->
+    <div class="info_resalt borders">
+        <div class="container">
+            <div class="info_vertical animated">
+                <h2>Facts</h2>
+                <h2><span>25</span> - Number of countries we can target worldwide</h2>
+                <h2><span>4,000</span> - Average volume of quality Investor leads generated per month</h2>
+                <h2><span>£30</span> - Your average spend per quality lead </h2>
+                <h2><span>110%</span> - The effort we will put into each and every one of your marketing campaigns</h2>
+            </div>
+        </div>
+    </div>
+    <!-- End Info resalt-->
 
     <!-- Info title-->
     <div class="row-fluid info_title top_animationd" id="contact">
@@ -113,14 +147,46 @@
             <div class="circle_bottom"></div>
         </div>
         <div class="info_vertical animated">
-            <h2>Contact Us</h2>
+            <h2>Sectors</h2>
 
-            <p>Give me a call and let me know about you, your needs and how I
-                can help you.</p>
+            <div class="table-responsive">
+                <table class="table table-condensed">
+
+                    <tbody>
+                        <tr>
+                            <td><i class="icon-ok"></i> Stockbroking</td>
+                            <td><i class="icon-ok"></i> Trading</td>
+                        </tr>
+                        <tr>
+                            <td><i class="icon-ok"></i> Seminars</td>
+                            <td><i class="icon-ok"></i> EIS</td>
+                        </tr>
+                        <tr>
+                            <td><i class="icon-ok"></i> Alternative Investments</td>
+                            <td><i class="icon-ok"></i> Tip Sheets</td>
+                        </tr>
+                        <tr>
+                            <td><i class="icon-ok"></i> Funds</td>
+                            <td><i class="icon-ok"></i> Property Investment</td>
+                        </tr>
+                        <tr>
+                            <td><i class="icon-ok"></i> Luxury Travel</td>
+                            <td><i class="icon-ok"></i> Signal Software</td>
+                        </tr>
+                        <tr>
+                            <td><i class="icon-ok"></i> Execution only platforms</td>
+                            <td><i class="icon-ok"></i> Crowdfunding</td>
+                        </tr>
+                        <tr>
+                            <td><i class="icon-ok"></i> Foreign Exchange</td>
+                            <td><i class="icon-ok"></i> New Media</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <div class="vertical_line"></div>
 
-        <i class="icon-thumbs-up left animated delay1"></i>
     </div>
     <!-- End Info title-->
 
