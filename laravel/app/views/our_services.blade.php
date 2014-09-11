@@ -121,7 +121,7 @@
             <!-- Image animation-->
             <div class="span4 image_resalt">
                 <div class="animation">
-                    <img src="img/services/3.png" alt="Image">
+                    <img src="img/lead_generation.png" alt="Image">
                 </div>
             </div>
             <!-- End Image animation-->
@@ -136,23 +136,20 @@
         <div class="row-fluid">
             <!-- Image animation-->
             <div class="span7 image_resalt">
-                <div class="animation_two">
-                    <img src="img/services/2.png" alt="Image">
+                <div class="animation">
+                    <img src="img/1on1marketing.jpg" alt="Image">
                 </div>
             </div>
             <!-- End Image animation-->
             <div class="span5 padding_top">
                 <h2>1on1 Marketing consultancy</h2>
-
                 <p class="lead">Don’t judge a man until you've walked two moons
                     in his moccasins</p>
-
                 <p>bring us in for a day or two a month, let us meet your sales
                     team, let’s find out what they need. Investomedia also have
                     day rates. We can come in your offices and work on your
                     marketing in house creating a monthly, quarterly or yearly
                     strategy that suits everyone especially your sales team.</p>
-
                 <div class="row-fluid padding_top_mini"><a href="/contact_us"
                                                            class="button"><i
                             class="icon-envelope-alt"></i> Let us assist your marketing and sales team</a></div>
@@ -184,7 +181,7 @@
             <!-- Image animation-->
             <div class="span4 image_resalt">
                 <div class="animation">
-                    <img src="img/services/3.png" alt="Image">
+                    <img src="img/list_management.jpg" alt="Image">
                 </div>
             </div>
             <!-- End Image animation-->
@@ -200,14 +197,13 @@
             <!-- Image animation-->
             <div class="span7 image_resalt">
                 <div class="animation_two">
-                    <img src="img/services/2.png" alt="Image">
+                    <img src="img/our_media.png" alt="Image">
                 </div>
             </div>
             <!-- End Image animation-->
             <div class="span5 padding_top">
                 <h2>Our Media</h2>
-                <p class="lead">(Will send bits over after for this)</p>
-                <p>(Will send bits over after for this)</p>
+                <p>Investomedia manage a large portfolio of email databases targeting Investors and High net worth’s in the UK and Overseas.</p>
                 <div class="row-fluid padding_top_mini"><a href="/contact_us"
                                                            class="button"><i
                             class="icon-envelope-alt"></i> Want to find out more about our media</a></div>
@@ -237,7 +233,7 @@
             <!-- Image animation-->
             <div class="span4 image_resalt">
                 <div class="animation">
-                    <img src="img/services/3.png" alt="Image">
+                    <img src="img/product_discovery.jpg" alt="Image">
                 </div>
             </div>
             <!-- End Image animation-->

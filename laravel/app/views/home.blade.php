@@ -19,10 +19,10 @@
                 <div class="container">
                     <div class="row-fluid">
                         <div class="span12">
-                            <h1 class="animated transparent"><a href="/our_services#LeadGeneration"><span>Lead</span> Generation.</a></h1>
-                            <h1 class="animated transparent"><a href="/our_services#1on1MarketingConsultancy"><span>1on1</span>Marketing consultancy.</a></h1>
-                            <h1 class="animated transparent"><a href="/our_services#ListManagement"><span>List </span>Management.</a></h1>
-                            <h1 class="animated transparent"><a href="/our_services#ProductDiscovery">Product <span>discovery</span>.</a></h1>
+                            <h1 class="animated transparent"><a href="/our_services#LeadGeneration"><span>Lead</span> Generation</a></h1>
+                            <h1 class="animated transparent"><a href="/our_services#1on1MarketingConsultancy"><span>1on1</span>Marketing consultancy</a></h1>
+                            <h1 class="animated transparent"><a href="/our_services#ListManagement"><span>List </span>Management</a></h1>
+                            <h1 class="animated transparent"><a href="/our_services#ProductDiscovery">Product <span>discovery</span></a></h1>
                         </div>
                     </div>
                 </div>
@@ -55,10 +55,6 @@
     <!-- Info resalt-->
     <div class="info_resalt borders">
         <div class="container">
-            <h2>Our Process</h2>
-
-            <p>“Every campaign is designed around your business needs”</p>
-
             <div class="row text-center service-process">
                 <!-- Step 1 -->
                 <div class="span3">
@@ -126,20 +122,6 @@
         <i class="icon-briefcase left"></i>
     </div>
     <!-- End Info title-->
-
-    <!-- Info resalt-->
-    <div class="info_resalt borders">
-        <div class="container">
-            <div class="info_vertical animated">
-                <h2>Facts</h2>
-                <h2><span>25</span> - Number of countries we can target worldwide</h2>
-                <h2><span>4,000</span> - Average volume of quality Investor leads generated per month</h2>
-                <h2><span>£30</span> - Your average spend per quality lead </h2>
-                <h2><span>110%</span> - The effort we will put into each and every one of your marketing campaigns</h2>
-            </div>
-        </div>
-    </div>
-    <!-- End Info resalt-->
 
     <!-- Info title-->
     <div class="row-fluid info_title top_animationd" id="contact">

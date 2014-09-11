@@ -74,13 +74,10 @@
                     <div id="result"></div>
                 </div>
                 <div class="span6">
-                    <h4>Investomedia Limited</h4>
-                    <p>28 Leman Street</p>
-                    <p>London</p>
-                    <p>E1 8EW</p>
-                    <p>Company Registration: 08849124</p>
                     <p><a href="mailto:enquiry@investomedia.co.uk"><i class="icon-envelope-alt"></i>&nbsp;enquiry@investomedia.co.uk</a></p>
-                    <p><i class="icon-phone"></i> 02086401815</p>
+                    <p><i class="icon-phone"></i>07803283515</p>
+                    <p>28 Leman Street, London, E1 8EW</p>
+                    <p>Company Registration: 08849124</p>
                 </div>
             </div>
 
